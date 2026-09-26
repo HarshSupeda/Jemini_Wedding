@@ -2,7 +2,15 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import {
+  AnimatePresence,
+  motion,
+  useMotionValueEvent,
+  useScroll,
+  useSpring,
+  useTransform,
+  MotionValue, // <-- Add this
+} from "framer-motion";
 
 const WEDDING = {
   bride: "Jemini",
@@ -524,7 +532,7 @@ function WeddingIntro({
   );
 }
 
-function FloralGateway({ progress }: { progress: any }) {
+function FloralGateway({ progress }: { progress: MotionValue<number> }) {
   const smoothProgress = useSpring(progress, {
     stiffness: 105,
     damping: 30,
