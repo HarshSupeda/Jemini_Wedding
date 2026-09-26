@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<g fill="none" stroke="#75675e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M65 390h670M90 420h620"/>
+ <!-- grand ballroom facade -->
+ <path d="M110 360V190h580v170"/>
+ <path d="M92 190h616M125 166h550"/>
+ <!-- layered roof / shikhara motif -->
+ <path d="M125 166l78-70 92 70M285 166l115-98 115 98M520 166l92-70 78 70"/>
+ <path d="M365 68h70M380 68V43M420 68V43M400 43V24"/>
+ <!-- tall windows -->
+ <path d="M140 218v112M192 218v112M244 218v112M326 218v112M378 218v112M430 218v112M512 218v112M564 218v112M616 218v112"/>
+ <path d="M135 245h62M187 245h62M239 245h62M321 245h62M373 245h62M425 245h62M507 245h62M559 245h62M611 245h62"/>
+ <!-- central ceremonial entry -->
+ <path d="M352 330v-82c0-28 21-51 48-51s48 23 48 51v82"/>
+ <path d="M372 330v-85c0-16 12-29 28-29s28 13 28 29v85"/>
+ <path d="M350 206h100M365 184l35-34 35 34"/>
+ <!-- side planters / lamps -->
+ <path d="M78 360h58v-34h-58zM664 360h58v-34h-58z"/>
+ <path d="M107 326v-37M693 326v-37"/>
+ <path d="M92 289h30M678 289h30"/>
+ <!-- foreground carpet -->
+ <path d="M270 420l130-26 130 26M305 448l95-18 95 18"/>
+</g>
+<g fill="#b39263" opacity=".68"><circle cx="400" cy="15" r="4"/><circle cx="400" cy="8" r="2"/></g>
+</svg>

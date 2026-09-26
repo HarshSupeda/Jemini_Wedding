@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blush: #f2d8dc;
+  --blush-deep: #eac5cb;
+  --cream: #f8f1e7;
+  --champagne: #d0ad82;
+  --ink: #544c49;
+  --sage: #9caa93;
+  --rose: #b97883;
+}
+
+* { box-sizing: border-box; }
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+  background: #e9dfd6;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #e9dfd6;
+  color: var(--ink);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  overscroll-behavior-x: none;
+}
+
+body,
+main,
+section,
+div { max-width: 100%; }
+
+button {
+  font: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img,
+svg { max-width: 100%; }
+
+::selection { background: rgba(208, 173, 130, .25); }
+
+.invitation-paper {
+  position: relative;
+  background:
+    radial-gradient(circle at 18% 15%, rgba(255,255,255,.36) 0 12%, transparent 42%),
+    radial-gradient(circle at 76% 72%, rgba(192, 134, 145,.10) 0 11%, transparent 38%),
+    linear-gradient(180deg, #f7e6e5 0%, #f4dfe2 58%, #f0d5da 100%);
+}
+
+.invitation-paper::before,
+.paper-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: .55;
+  mix-blend-mode: multiply;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(120,90,90,.025) 0, rgba(120,90,90,.025) 1px, transparent 1px, transparent 4px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.06) 0, rgba(255,255,255,.06) 1px, transparent 1px, transparent 6px);
+}
+
+.texture-linen {
+  background-image:
+    repeating-linear-gradient(0deg, rgba(255,255,255,.08) 0, rgba(255,255,255,.08) 1px, transparent 1px, transparent 5px),
+    repeating-linear-gradient(90deg, rgba(100,70,70,.025) 0, rgba(100,70,70,.025) 1px, transparent 1px, transparent 6px);
+}
+
+.gold-rule {
+  background: linear-gradient(90deg, transparent, rgba(208,173,130,.95), transparent);
+  height: 1px;
+}
+
+.fade-edge {
+  mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+}
+
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { scrollbar-width: none; }
+
+@keyframes boat-drift {
+  from { transform: translateX(-18vw); }
+  to { transform: translateX(118vw); }
+}
+.boat-drift { animation: boat-drift 24s linear infinite; }
+
+@keyframes curtain-breathe {
+  0%, 100% { transform: scaleX(1); opacity: .72; }
+  50% { transform: scaleX(1.012); opacity: .86; }
+}
+.curtain-breathe { animation: curtain-breathe 8s ease-in-out infinite; transform-origin: top center; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .boat-drift,
+  .curtain-breathe { animation: none; }
+}

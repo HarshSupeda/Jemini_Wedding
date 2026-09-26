@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<g fill="none" stroke="#76685d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M75 378h650M54 414h692M92 438h616"/>
+ <!-- luxury lawn pavilion -->
+ <path d="M140 370V210h520v160M172 210l228-112 228 112"/>
+ <path d="M232 370V222M332 370V205M468 370V205M568 370V222"/>
+ <path d="M185 238h62M307 224h50M443 224h50M553 238h62"/>
+ <!-- scalloped canopy -->
+ <path d="M170 208c36-42 72-52 110-52 38 0 76 10 120 52 44-42 82-52 120-52 38 0 74 10 110 52"/>
+ <path d="M170 192c40-33 75-41 110-41 40 0 76 9 120 43 44-34 80-43 120-43 35 0 70 8 110 41"/>
+ <!-- stage -->
+ <path d="M255 370v-88h290v88"/>
+ <path d="M295 300h210M309 321h182"/>
+ <!-- floral columns -->
+ <path d="M145 370v-105M175 370v-92M625 370v-92M655 370v-105"/>
+ <path d="M128 265l28-26 28 26M608 265l28-26 28 26"/>
+ <!-- garden -->
+ <path d="M110 395c28-30 59-42 90-42M690 395c-28-30-59-42-90-42"/>
+ <circle cx="100" cy="340" r="17"/><circle cx="700" cy="340" r="17"/>
+ <path d="M95 323l-18-26M105 323l18-26M695 323l-18-26M705 323l18-26"/>
+</g>
+<g fill="#af8c5f" opacity=".7"><circle cx="400" cy="107" r="5"/><circle cx="400" cy="85" r="3"/></g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" preserveAspectRatio="none">
+<defs>
+ <linearGradient id="silkL" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#cdbda5"/><stop offset=".42" stop-color="#f4ecdf"/><stop offset=".78" stop-color="#d8c7ad"/><stop offset="1" stop-color="#b6a183"/></linearGradient>
+ <linearGradient id="silkR" x1="1" y1="0" x2="0" y2="0"><stop stop-color="#cdbda5"/><stop offset=".42" stop-color="#f4ecdf"/><stop offset=".78" stop-color="#d8c7ad"/><stop offset="1" stop-color="#b6a183"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9f8457"/><stop offset=".5" stop-color="#ead5ab"/><stop offset="1" stop-color="#9f8457"/></linearGradient>
+</defs>
+<g opacity=".93">
+ <path d="M0 0h290v28c-50 16-74 65-73 135 2 96 34 190 70 287H0z" fill="url(#silkL)"/>
+ <path d="M900 0H610v28c50 16 74 65 73 135-2 96-34 190-70 287h287z" fill="url(#silkR)"/>
+</g>
+<g fill="none" stroke="url(#gold)" opacity=".75">
+ <path d="M24 26c118 65 220 72 336 17 54-26 86-35 90-36 4 1 36 10 90 36 116 55 218 48 336-17" stroke-width="18"/>
+ <path d="M52 44c82 40 165 51 263 19 59-19 102-45 135-51 33 6 76 32 135 51 98 32 181 21 263-19" stroke="#fffaf2" stroke-width="5" opacity=".8"/>
+ <path d="M86 62c66 25 133 28 207 8M814 62c-66 25-133 28-207 8" stroke-width="3"/>
+</g>
+<g fill="#8f774f" opacity=".55"><circle cx="450" cy="18" r="4"/><circle cx="433" cy="22" r="2.5"/><circle cx="467" cy="22" r="2.5"/></g>
+</svg>

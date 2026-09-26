@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" preserveAspectRatio="none">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7efe3"/><stop offset=".55" stop-color="#eee2d1"/><stop offset="1" stop-color="#e5d3bd"/></linearGradient>
+ <pattern id="jali" width="160" height="160" patternUnits="userSpaceOnUse">
+   <path d="M80 10c23 22 44 42 70 70-26 28-47 48-70 70-23-22-44-42-70-70 26-28 47-48 70-70z" fill="none" stroke="#9b8157" stroke-opacity=".11" stroke-width="2"/>
+   <path d="M80 35v90M35 80h90" stroke="#a78d61" stroke-opacity=".07"/>
+   <circle cx="80" cy="80" r="10" fill="none" stroke="#aa9168" stroke-opacity=".10" stroke-width="2"/>
+ </pattern>
+ <pattern id="grain" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 1h5M0 4h5" stroke="#8e7864" stroke-opacity=".018"/></pattern>
+</defs>
+<rect width="800" height="1200" fill="url(#bg)"/>
+<rect width="800" height="1200" fill="url(#jali)"/>
+<rect width="800" height="1200" fill="url(#grain)"/>
+<g fill="none" stroke="#a78960" stroke-opacity=".10" stroke-width="2">
+ <path d="M100 220h600M128 250h544M158 280h484"/>
+ <path d="M100 980h600M128 950h544M158 920h484"/>
+ <path d="M400 75v120M400 100l-42 42M400 100l42 42"/>
+ <path d="M400 1000v125M400 1025l-42-42M400 1025l42-42"/>
+</g>
+</svg>

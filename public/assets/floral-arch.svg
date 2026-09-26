@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1400" preserveAspectRatio="none">
+<defs>
+ <linearGradient id="stone" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a88f6e"/><stop offset=".5" stop-color="#f4ead8"/><stop offset="1" stop-color="#ae956f"/></linearGradient>
+ <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6e7e68"/><stop offset="1" stop-color="#a5ad8c"/></linearGradient>
+ <linearGradient id="petal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff8ef"/><stop offset="1" stop-color="#ddbec2"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9b7a49"/><stop offset=".5" stop-color="#ead2a0"/><stop offset="1" stop-color="#9b7a49"/></linearGradient>
+</defs>
+<path d="M108 1400V488c0-222 145-342 342-342s342 120 342 342v912" fill="none" stroke="url(#stone)" stroke-width="54"/>
+<path d="M142 1400V500c0-195 130-300 308-300s308 105 308 300v900" fill="none" stroke="#fffaf0" stroke-opacity=".75" stroke-width="3"/>
+<!-- carved temple torana -->
+<g fill="none" stroke="url(#gold)" stroke-linecap="round">
+ <path d="M105 515c130-110 230-148 345-148s215 38 345 148" stroke-width="18"/>
+ <path d="M150 530c116-88 208-116 300-116s184 28 300 116" stroke-width="3"/>
+ <path d="M180 550c88-56 151-78 270-78s182 22 270 78" stroke-width="2"/>
+</g>
+<!-- florals -->
+<g fill="url(#petal)" opacity=".98">
+ <circle cx="145" cy="500" r="47"/><circle cx="205" cy="442" r="54"/><circle cx="276" cy="401" r="57"/><circle cx="352" cy="378" r="58"/><circle cx="450" cy="368" r="67"/><circle cx="548" cy="378" r="58"/><circle cx="624" cy="401" r="57"/><circle cx="695" cy="442" r="54"/><circle cx="755" cy="500" r="47"/>
+ <circle cx="180" cy="580" r="42"/><circle cx="720" cy="580" r="42"/>
+</g>
+<g fill="none" stroke="url(#leaf)" stroke-width="7" opacity=".9">
+ <path d="M140 620c55 42 74 90 83 132M760 620c-55 42-74 90-83 132"/>
+ <path d="M178 644c-34 12-47 33-58 55M722 644c34 12 47 33 58 55"/>
+ <path d="M230 485c-22-32-45-43-66-45M670 485c22-32 45-43 66-45"/>
+ <path d="M285 440c-13-33-6-63 13-85M615 440c13-33 6-63-13-85"/>
+</g>
+<!-- subtle hanging beads -->
+<g fill="#d8bd86" opacity=".65"><circle cx="108" cy="608" r="4"/><circle cx="792" cy="608" r="4"/><circle cx="150" cy="675" r="3"/><circle cx="750" cy="675" r="3"/></g>
+</svg>
